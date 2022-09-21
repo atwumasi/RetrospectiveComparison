@@ -24,13 +24,13 @@ mM, test, ttable = movingaverage_best_m(x, y, 1, 6, 1)
 
 
 
-**TODO**
+## TODO ##
 
-Parallelize the algorithm
-Enhance the algorithm to be more efficient
-Create restraints on the parameters limitlessness
-incorprate the cross validation function that has been included, into more of the other comparison function.
-References
+markup: * Parallelize the algorithm
+        * Enhance the algorithm to be more efficient
+        * Create restraints on the parameters limitlessness
+        * incorprate the cross validation function that has been included, into more of the other comparison function.
+## References ##
 
 Bezanson, J., Karpinski, S., Shah, V. B., & Edelman, A. (2012). Julia: A fast dynamic language for technical computing. ArXiv Preprint ArXiv:1209.5145.
 
