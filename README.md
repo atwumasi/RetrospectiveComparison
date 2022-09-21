@@ -5,7 +5,17 @@ A Julia package that utilizes two prediction algorithms, Moving Average and Bino
 This Package is completely independent of any existing Moving Average and Binomial Filtering packages previously developed in Julia, or any other programming language. Which is why two of the function that have been created are the algorithms for Moving Average and Binomial Filtering, both with output that return the predicted Y vector with the given inputted vector and tested m parameter. With this idea, the best_m algorithm was derived, instead of choose a single parameter the best_m algorithm use an interval of this parameter and test them individually. Additionally to the inputted interval, a step size parameter is also inputted to determine how to move throughout this interval. Although the actual values is typically unknown when working with real data, when making a comparison of these two algorithms since they are both data driven methods it is required to use the actual data to be compared against the predictions.
 
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 
+-OR-
+
+ Markup : - Bullet list
+              - Nested bullet
+                  - Sub-nested bullet etc
+          - Bullet list item 2 
 
 
 using Retrospective Comparison
