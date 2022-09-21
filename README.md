@@ -24,7 +24,7 @@ mM, test, ttable = movingaverage_best_m(x, y, 1, 6, 1)
 
 
 
-TODO
+#TODO
 
 Parallelize the algorithm
 Enhance the algorithm to be more efficient
