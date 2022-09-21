@@ -26,7 +26,7 @@ mM, test, ttable = movingaverage_best_m(x, y, 1, 6, 1)
 
 ## TODO ##
 
-markup : * Bullet list
+Markup : * Bullet list
           * Parallelize the algorithm
           * Enhance the algorithm to be more efficient
           * Create restraints on the parameters limitlessness
