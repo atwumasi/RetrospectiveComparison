@@ -31,7 +31,7 @@ mM, test, ttable = movingaverage_best_m(x, y, 1, 6, 1)
 * Create restraints on the parameters limitlessness
 * incorprate the cross validation function that has been included, into more of the other comparison function.
 * 
-## References ##
+## REFERENCES ##
 
 Bezanson, J., Karpinski, S., Shah, V. B., & Edelman, A. (2012). Julia: A fast dynamic language for technical computing. ArXiv Preprint ArXiv:1209.5145.
 
