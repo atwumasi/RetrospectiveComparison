@@ -5,19 +5,9 @@ A Julia package that utilizes two prediction algorithms, Moving Average and Bino
 This Package is completely independent of any existing Moving Average and Binomial Filtering packages previously developed in Julia, or any other programming language. Which is why two of the function that have been created are the algorithms for Moving Average and Binomial Filtering, both with output that return the predicted Y vector with the given inputted vector and tested m parameter. With this idea, the best_m algorithm was derived, instead of choose a single parameter the best_m algorithm use an interval of this parameter and test them individually. Additionally to the inputted interval, a step size parameter is also inputted to determine how to move throughout this interval. Although the actual values is typically unknown when working with real data, when making a comparison of these two algorithms since they are both data driven methods it is required to use the actual data to be compared against the predictions.
 
 
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
-
--OR-
-
- Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
 
 
+```julia
 using Retrospective Comparison
 using Random
 using Distributions
@@ -32,15 +22,15 @@ plotComparison(x, y, 2, 11, 3)
 bM, test, ttable = binomial_best_m(x, y, 1, 6, 1)
 mM, test, ttable = movingaverage_best_m(x, y, 1, 6, 1)
 
-
+```
 
 ## TODO ##
 
-Markup : * Bullet list
-          * Parallelize the algorithm
-          * Enhance the algorithm to be more efficient
-          * Create restraints on the parameters limitlessness
-          * incorprate the cross validation function that has been included, into more of the other comparison function.
+* Parallelize the algorithm
+* Enhance the algorithm to be more efficient
+* Create restraints on the parameters limitlessness
+* incorprate the cross validation function that has been included, into more of the other comparison function.
+* 
 ## References ##
 
 Bezanson, J., Karpinski, S., Shah, V. B., & Edelman, A. (2012). Julia: A fast dynamic language for technical computing. ArXiv Preprint ArXiv:1209.5145.
